@@ -128,7 +128,6 @@ function user(): array {
     </div>
 
     <header class="header-area style-1">
-        <!-- Header Top Start -->
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -146,8 +145,7 @@ function user(): array {
                 </div>
             </div>
         </div>
-        <!-- Header Top End -->
-        <!-- Header Top Bottom Start -->
+       
         <div class="header-top-bottom-area has-nav-menu">
             <div class="container">
                 <div class="row">
@@ -179,8 +177,7 @@ function user(): array {
                 </div>
             </div>
         </div>
-        <!-- Header Top Bottom End -->
-        <!-- Header Nav Menu Start -->
+       
         <div class="header-menu-area">
             <div class="container">
                 <div class="row">
@@ -240,12 +237,10 @@ function user(): array {
 
                                        
                                     </div>
-                                    <!-- Header Search Button End !-->
-                                    <!-- Mobile Menu Toggle Button Start !-->
+                                    
                                     <div class="mobile-menu-bar d-lg-none text-end">
                                         <a href="#" class="mobile-menu-toggle-btn"><i class="fal fa-bars"></i></a>
                                     </div>
-                                    <!-- Mobile Menu Toggle Button End !-->
                                 </div>
                             </div>
                         </div>
@@ -536,6 +531,7 @@ function user(): array {
                                 </div>
                             </div>
                             <div class="text">
+                                <p>SkillUp Gaming допоможе вам усвідомити, які цінні професійні навички ви здобуваєте, і покаже, як ефективно застосувати їх у реальному житті та кар'єрі.</p>
                                 <p>Ми допомагаємо перетворити захоплення іграми на професійні компетенції та навички, необхідні для успішної кар'єри.</p>
                             </div>
                             <div class="list-item-wrapper">
@@ -1001,8 +997,8 @@ function user(): array {
                     <div class="cta-card" style="background-image: url(images/shape/cta-area-2.png);">
                         <div class="cta-content-wrapper">
                             <div class="cta-content">
-                                <h3 class="title">Почніть свій шлях до успіху</h3>
-                                <p class="sub-title">Перетворіть захоплення іграми на професійні навички</p>
+                                <h3 class="title">Записуйся на безкоштовну консультацію, </h3>
+                                <p class="sub-title">для з'ясування рівня навичок</p>
                             </div>
                             <div class="cta-phone-number">
                                 <div class="icon">

@@ -62,7 +62,6 @@ class CookieBanner {
         this.setCookie(this.cookieName, 'accepted', this.cookieExpireDays);
         this.hideBanner();
         
-        // Enable analytics and other tracking
         this.enableTracking();
         
         console.log('Cookies accepted');
@@ -72,7 +71,6 @@ class CookieBanner {
         this.setCookie(this.cookieName, 'declined', this.cookieExpireDays);
         this.hideBanner();
         
-        // Disable analytics and tracking
         this.disableTracking();
         
         console.log('Cookies declined');
@@ -80,7 +78,6 @@ class CookieBanner {
 
 
     enableTracking() {
-        // Enable Google Analytics if present
         if (typeof gtag !== 'undefined') {
             gtag('consent', 'update', {
                 'analytics_storage': 'granted',
@@ -88,12 +85,10 @@ class CookieBanner {
             });
         }
         
-        // Enable other tracking scripts
         localStorage.setItem('tracking_enabled', 'true');
     }
 
     disableTracking() {
-        // Disable Google Analytics if present
         if (typeof gtag !== 'undefined') {
             gtag('consent', 'update', {
                 'analytics_storage': 'denied',
@@ -101,7 +96,6 @@ class CookieBanner {
             });
         }
         
-        // Disable other tracking scripts
         localStorage.setItem('tracking_enabled', 'false');
     }
 
@@ -131,19 +125,16 @@ class CookieBanner {
         return null;
     }
 
-    // Method to reset consent (for testing)
     resetConsent() {
         document.cookie = `${this.cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
         location.reload();
     }
 }
 
-// Initialize cookie banner when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
     window.cookieBanner = new CookieBanner();
 });
 
-// Fallback for older browsers
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
         if (!window.cookieBanner) {
