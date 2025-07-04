@@ -1,0 +1,166 @@
+/* Font Awesome Icons */
+.fa-location-dot:before {
+  content: "\f3c5";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-phone:before {
+  content: "\f095";
+}
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-headset:before {
+  content: "\f590";
+}
+.fa-angle-up:before {
+  content: "\f106";
+}
+.fa-angle-left:before {
+  content: "\f104";
+}
+.fa-angle-right:before {
+  content: "\f105";
+}
+.fa-magnifying-glass:before {
+  content: "\f002";
+}
+.fa-xmark:before {
+  content: "\f00d";
+}
+.fa-folder-open:before {
+  content: "\f07c";
+}
+.fa-clock:before {
+  content: "\f017";
+}
+.fa-user:before {
+  content: "\f007";
+}
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+.fa-gamepad:before {
+  content: "\f11b";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-home:before {
+  content: "\f015";
+}
+.fa-hourglass-half:before {
+  content: "\f252";
+}
+.fa-target:before {
+  content: "\f140";
+}
+.fa-chart-line:before {
+  content: "\f201";
+}
+.fa-mobile-screen:before {
+  content: "\f3cd";
+}
+.fa-balance-scale:before {
+  content: "\f24e";
+}
+.fa-rocket:before {
+  content: "\f135";
+}
+.fa-magnifying-glass-chart:before {
+  content: "\f610";
+}
+.fa-gear:before {
+  content: "\f013";
+}
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+.fa-list-check:before {
+  content: "\f0ae";
+}
+.fa-face-smile:before {
+  content: "\f118";
+}
+.fa-brain:before {
+  content: "\f5dc";
+}
+.fa-user-graduate:before {
+  content: "\f501";
+}
+.fa-certificate:before {
+  content: "\f0a3";
+}
+.fa-chess:before {
+  content: "\f439";
+}
+.fa-users:before {
+  content: "\f0c0";
+}
+.fa-trophy:before {
+  content: "\f091";
+}
+.fa-file-signature:before {
+  content: "\f573";
+}
+.fa-laptop-code:before {
+  content: "\f5fc";
+}
+.fa-award:before {
+  content: "\f559";
+}
+/* Social Media Icons */
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-quora:before {
+  content: "\f2c4";
+}
+/* Additional UI Elements */
+.fa-plus:before {
+  content: "\f067";
+}
+.fa-minus:before {
+  content: "\f068";
+}
+/* New Icons */
+.fa-crown:before {
+  content: "\f521";
+}
+.fa-lightbulb:before {
+  content: "\f0eb";
+}
+.fa-dumbbell:before {
+  content: "\f44b";
+}
+.fa-window-maximize:before {
+  content: "\f2d0";
+}
+.fa-calendar-check:before {
+  content: "\f274";
+}
+.fa-tags:before {
+  content: "\f02c";
+}
+.fa-arrow-right-long:before {
+  content: "\f178";
+}
+.fa-arrow-left-long:before {
+  content: "\f177";
+} 
